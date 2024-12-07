@@ -1,4 +1,4 @@
-project glfw
+project "glfw"
 	kind "StaticLib"
 	langauge "C"
 	staticruntime "Off"
