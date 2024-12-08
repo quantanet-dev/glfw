@@ -4,8 +4,8 @@ project "glfw"
 	staticruntime "On"
 	warnings "Off"
 
-	targetdir ("bin/" .. outputDir .. "/${prj.name}")
-	targetdir ("bin-obj/" .. outputDir .. "/${prj.name}")
+	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
+	targetdir ("bin-obj/" .. outputDir .. "/%{prj.name}")
 
 	files {
 		"inlcude/**.h",
