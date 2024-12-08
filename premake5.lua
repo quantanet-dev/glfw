@@ -18,8 +18,7 @@ project "glfw"
 		systemversion "latest"
 		pic "On"
 		defines {
-		"_GLFW_X11",
-		"_GLFW_WAYLAND",
+		"_GLFW_X11"
 		}
 
 	filter "system:windows"
