@@ -1,4 +1,4 @@
-project "GLFW"
+project "glfw"
 	kind "StaticLib"
 	language "C"
 	staticruntime "On"
@@ -8,7 +8,7 @@ project "GLFW"
 	targetdir ("bin-obj/" .. outputDir .. "/%{prj.name}")
 
 	files {
-		"inlcude/**.h",
+		"include/**.h",
 		"src/**.h",
 		"src/**.c",
 		"src/**.m"
